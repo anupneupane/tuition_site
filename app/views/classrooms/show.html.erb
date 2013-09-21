@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Size:</b>
+  <%= @classroom.size %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @classroom.location %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%= @classroom.duration %>
+</p>
+
+<p>
+  <b>Subject:</b>
+  <%= @classroom.subject %>
+</p>
+
+<p>
+  <b>Level:</b>
+  <%= @classroom.level %>
+</p>
+
+
+<%= link_to 'Edit', edit_classroom_path(@classroom) %> |
+<%= link_to 'Back', classrooms_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  size: 1
+  location: MyString
+  duration: 2013-09-21 11:28:09
+  subject: MyString
+  level: MyString
+
+two:
+  size: 1
+  location: MyString
+  duration: 2013-09-21 11:28:09
+  subject: MyString
+  level: MyString
